@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation</title>
+    
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f9f5ed;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        padding: 20px;
+        height: 15vh;
+        margin-left: 8.5%;
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin-right: 5%;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    nav ul li:hover{
+        font-size: 17px;
+    }
+
+    nav ul img{
+        width: 100px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-left{
+        width: 40%;
+    }
+
+    .main-left h1{
+        font-size: 60px;
+    }
+
+    .main-left p{
+        margin: 5% 0;
+    }
+
+    button{
+        padding: 15px 20px;
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        border: none;
+        background-color: #3b855b;
+        border-radius: 10px;  
+    }
+    .main-right div{
+        margin-bottom: 20px;
+    }
+    .main-right div :first-child{
+        margin-right: 20px;
+        /* height: 250px; */
+    }
+    nav ul li a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <!-- header part -->
+
+        <nav>
+         <!-- logo image -->
+        <!-- menus -->
+        <ul>
+            <li><img src="logo.png" alt="calm"></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Calm Playlist</a></li>
+            <li><a href="#">Join Calm</a></li>
+        </ul>
+        </nav>
+        <!-- hero section start -->
+        <main class="main">
+            <div class="main-left">
+                <h1>Be Focus and <br> Productive</h1>
+                <p>Not just an ordinary Headphones. It's designed for meditation.</p>
+                <div class="button"></div>
+                <button>Learn more</button>
+            </div>
+            <div class="main-right">
+                <div><img src="img1.png" alt="img1"><img src="img2.png" alt="img2"></div>
+                <div><img src="img3.png" alt="img3"></div>
+            </div>
+        </main>
+</body>
+</html>
