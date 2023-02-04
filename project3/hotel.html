@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel webpage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        body{
+            background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Poppins', sans-serif;
+        }
+        header nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header nav ul{
+            display: flex;
+            gap: 60px;
+        }
+        nav div img{
+            height: 50px;
+            margin: 20px;
+        }
+        nav ul li{
+            list-style-type: none;
+            color: #ffc233;
+            font-size: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        .button{
+            padding-right: 25px;
+            
+        }
+        nav div button{
+            background-color: #ff515f;
+            padding: 10px 20px;
+            /* border-radius: 10px; */
+            color: white;
+            border: white;
+            font-weight: 900;
+        }
+        main{
+            margin-top: 100px;
+        }
+        main div p{
+            color:#ffc233;
+            display: flex;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 60px
+        }
+        .readmenu{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .readmenu button{
+            background-color: #ff515f;
+            padding: 10px 16px;
+            font-size: 20px;
+            color: white;
+            border: white;
+            font-weight: 800;
+        }
+
+        footer div img{
+            margin-right: 25px;
+            height: 150px;
+            position: absolute;
+            right: 0px;
+            border: 0px;
+
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: #e9c9cb;
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="white-logo.png" alt=""></div>
+            <ul>
+                <li>Our Menu</li>
+                <li>Maps</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <div class="button"><button>Order</button></div>
+        </nav>
+    </header>
+    <main>
+        <div><p><centre>A Resturant That</centre></p>
+            <p><centre>Only Serves</centre></p>
+            <p><centre>Delicious Food</centre></p></div>
+        <!-- <div class="heading"><h1>A Resturant That <br><centre>Only Serves </centre><br><centre>Delicious Food</centre></h1></div> -->
+        <div class="readmenu"><button> Read Our Menu</button></div>
+    </main>
+    <footer>
+        <div><img src="scrool.png" alt="scrool"></div>
+    </footer>
+
+    
+</body>
+</html>
