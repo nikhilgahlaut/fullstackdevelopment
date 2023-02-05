@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+    <style>
+        *{
+            /* background-image: url(bg.png); */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+            font-family: "Poppins", sans-serif;
+        }
+        body{
+            background-image: url(bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav{
+            display: flex;
+            background-color: black;
+            margin-bottom: 20px;
+        }
+        .list{
+            display: flex;
+            color: #fff;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 50px;
+            gap: 70px;
+        }
+
+        .line {
+            width: 1px;
+            height: 50px;
+            background-color: #fff;
+            margin-left: 50px;
+            margin-top: 3px;
+            margin-bottom: 10px;
+        }
+        nav button{
+            position: absolute;
+            right: 0%;
+            padding: 9px 20px;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 450px;
+        }
+        .heading{
+            margin-top: 170px;
+            color: white;
+            
+        }
+        h1{
+            font-size: 65px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-left: 70px;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+        section button{
+            margin-left: 150px;
+            padding: 20px 50px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        button{
+            background-color: #b90ec5;
+            color: white;
+            border-radius: 10px;
+            border: none;
+        }
+
+        button:hover{
+            background-color: #fff;
+            color: black;
+        }
+        img{
+            max-width: 100%;
+            height: 30px;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
+        a:hover{
+            font-size: 17px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="white-logo.png" alt=""></div>
+            <div class="line"></div>
+            <div>
+                <ul class="list">
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">DAO</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Token</a></li>
+                    <li><a href="#">Contributor</a></li>
+                </ul>
+            </div>
+            <div><button>Buy 1 token</button></div>
+        </nav>
+        
+    </header>
+    <section>
+        <div class="heading">
+            <h1>Lets build a better<br>tomorrow,together.</h1>
+            
+            <p>Buy 1 Token. Join the DAO. Change the world</p>
+        </div>
+        <div class="main-btn"><button>Request Early Access</button></div>
+    </section>
+    
+</body>
+</html>
