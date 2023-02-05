@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 20px;
+            gap: 40px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        main{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        span{
+            color: #5b57b4;
+            font-size: 50px;
+
+        }
+        h1{
+            color:#352955;
+            font-size: 60px;
+        }
+        p{
+            margin-top: 20px;
+            margin-bottom: 50px;
+            margin-left: 10px;
+        }
+
+        header button{
+            background-color: #5955b3;
+            color: white;
+            border-radius: 10px;
+            border-color: white;
+            padding: 10px 20px;
+            font-weight: 700;
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+        main button{
+            background-color: #5955b3;
+            color: white;
+            border-radius: 10px;
+            border-color: white;
+            padding: 15px 22px;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+        header img{
+            height: 50px;
+            margin-top: 10px;
+        }
+        main img{
+            margin-left: 165px;
+            height: 600px;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+        a:hover{
+            font-size: 20px;
+        }
+        a:link{
+            color: #000;
+        }
+        a:visited {
+        color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="list">
+            <li><img src="Logo.png" alt="logo"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+        </div>
+        <div class="head_btn"><button>Contact Us</button></div>
+    </header>
+    <main>
+        <div>
+            <h1>We help You</h1>
+            <h1><span>Crush</span>Your</h1>
+            <h1>Competition</h1>
+            <p>Build trust to connect your brand to billions of user and grow you revenue through SEO.</p>
+            <button>See our Services</button>
+        </div>
+        <div><img src="Header Illustration.png" alt="Illustration"></div>
+    </main>
+</body>
+</html>
