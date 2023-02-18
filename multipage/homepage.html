@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f0f4f5;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+        img[alt= "logo"]{
+            height: 80px;
+            margin-left: 150px;
+            margin-top: 30px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited,a:active,a:link
+        {
+            color: black;
+            cursor: pointer;
+        }
+        a:hover
+        {
+            color: #22bc7e;
+            cursor: pointer;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 70px;
+            margin-right: 140px;
+        }
+        li{
+            font-weight: 600;
+            font-size: 19px;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            background: url(stethoscope.png);
+            background-repeat: no-repeat;
+            background-size: 600px;
+            background-position-y: 100px;
+            background-position-x: 300px;
+            
+        }
+        .section-left{
+            margin-top: 20vh;
+            margin-left: 150px;
+        }
+        h1{
+            font-size: 60px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #bbbdbd;
+            font-size: 18px;
+            margin-bottom : 20px;
+        }
+        .app-btn{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        img[alt="top-angle"],img[alt="bottom-angle"]
+        {
+            height: 50px;
+        }
+        .mouseandangle{
+            display: flex;
+            margin-right: -50px;
+        }
+        img[alt="mouse"]
+        {
+            height: 5vh;
+            position: absolute;
+            margin-top: 10vh;
+            margin-left: 5vw;
+
+        }
+        button{
+            padding: 20px 55px;
+            font-size: 20px;
+            border-radius: 28px;
+            background-color: #22bc7e;
+            color: white;
+            border-color: white;
+            border-style: none;
+        }
+        img[alt="greenbox"],img[alt="yellowbox"]{
+            position: absolute;
+            right: 0;
+
+        }
+        .greenbox{
+            width: 510px;
+            margin-top: 20vh;
+            margin-right: 30px;
+
+        }
+        .yellowbox{
+            width: 470px;
+            margin-top: 26vh;
+
+        }
+        img[alt="doctor"]{
+            height: 100vh;
+            position: absolute;
+            right: 20px;
+            bottom: -60px;
+            /* margin-top: 100px; */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="logo.png" alt="logo" title="home">
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <section class="section-left">
+            <div>
+                <img src="topAngle.png" alt="top-angle">
+            </div>
+            <div>
+                <h1>Complete Health <br> Care Solutions for<br>Everyone</h1>
+            </div>
+            <div>
+                <p>We're always available for our patients with emergen problems. You can easily reach <br>us 24/7. We focused on highest quality.</p>
+            </div>
+            <div class="app-btn">
+                <div><button>Make Appointment</button></div>
+                <div class="mouseandangle">
+                    <img src="bottomAngle.png" alt="bottom-angle">
+                    <img src="mouse.png" alt="mouse">
+                </div>
+            </div>
+        </section>
+        <section class="section-right">
+            <img src="greenBox.png" alt="greenBox" class="greenbox">
+            <img src="yellowBox.png" alt="yellowbox" class="yellowbox">
+            <img src="doctor.png" alt="doctor">
+        </section>
+    </main>
+</body>
+</html>

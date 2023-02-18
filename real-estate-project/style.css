@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    
+}
+img:hover,button:hover{
+    cursor: pointer;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Photos/mainBackground.png");
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 125vh;
+    color: white;
+    
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+header img{
+    margin-top: 30px;
+    margin-left: 10vw;
+    scale: 0.7;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 55px;
+    font-size: 18px;
+    margin-right: 12vw;
+}
+.horizontal-divider{
+    height: 1px;
+    width: 85vw;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 7vw;
+}
+.top-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20vh;
+}
+.heading{
+    margin-left: 15vw;
+}
+.heading h1{
+    font-size: 80px;
+
+}
+.heading p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.heading button{
+    background-color: #6563e9;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;   
+}
+.white-bar{
+    background-color: white;
+    border-radius: 20px;
+    padding: 100px 0;
+    width: 90vw;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.logo-name{
+    scale: .95;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -130px;
+    right: 30px;
+}
+img[alt="logo-name"]{
+    margin: 10px 70px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f8fa;
+}
+.projects{
+    /* background-color: #f5f8fa; */
+    /* margin-top: 100px; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.project-heading{
+    font-size: 70px;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+img[alt="img"]{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+.line-1{
+    margin-top: 150px;
+}
+.line-1,.line-2,.line-3{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 13vw;
+    /* justify-content: space-around; */
+    margin-bottom: 50px;
+}
+.info-button{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 120px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    width: 315px;
+    padding: 20px 30px;
+}
+.info-button button{
+    background-color: #6563e9;
+    font-size: 17px;
+    padding: 5px  15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.info-button h2{
+    font-size: 30px;
+}
+span{
+    color: #6563e9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.mixtownia-2{
+    position: relative;
+    top: 30px;
+}
+.mixtownia-3{
+    position: relative;
+    top: 40px;
+}
+.mixtownia-4{
+    position: relative;
+    top: 40px;
+}
+.mixtownia-5{
+    position: relative;
+    top: 30px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+}
+.feature1{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 70px;
+
+}
+.feature2{
+    display: flex;
+    justify-content: space-between;
+}
+img[alt="featuresImage1"]{
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    position: relative;
+    right: 390px;
+    bottom: 50px;
+    z-index: 1;
+
+}
+img[alt="featuresImage2"]{
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    position: relative;
+    left: 390px;
+    bottom: 50px; 
+    z-index: 1;
+
+}
+img[alt="bg1"],img[alt="bg2"]{
+    height: 400px;
+
+}
+.feature-info1,.feature-info2{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-info2{
+    margin-left: 200px;
+}
+.feature-info1 h1,.feature-info2 h1{
+    font-size: 60px;
+
+}
+.feature-info1 p,.feature-info2 p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.feature-button{
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: #6563e9;
+    color: white;
+    border: none;
+}
+.section-end{
+    background-color: #6563e9;
+    /* width: fit-content; */
+    height: 360px;
+    width: 800px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    color: white;
+    margin-top: 64px;
+
+    /* align-items: center; */
+}
+.section-end h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 30px 30px;
+}
+.section-end p{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.text-area
+{
+    display: flex;
+}
+.text-area form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #5654d1;
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 70px;
+}
+.text-area input{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+}
+.Subscribe{
+    background-color: white;
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+}
+img[alt="mail"]{
+    margin-left: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    padding: 30px 100px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    scale: 0.7;
+    margin-left: -60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location,.contact,.Legals{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+img[alt="footer-logo"]{
+    scale: .9;
+    margin-left: -5px;
+}
+

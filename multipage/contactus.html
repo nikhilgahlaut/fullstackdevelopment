@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f0f4f5;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+        img[alt= "logo"]{
+            height: 80px;
+            margin-left: 150px;
+            margin-top: 30px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited,a:active,a:link
+        {
+            color: black;
+            cursor: pointer;
+        }
+        a:hover
+        {
+            color: #22bc7e;
+            cursor: pointer;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 70px;
+            margin-right: 140px;
+        }
+        li{
+            font-weight: 600;
+            font-size: 19px;
+        }
+
+        .box{
+            height: 400px;
+            width: 300px;
+            box-shadow: 0 0 15px black;
+            text-align: center;
+            position: relative;
+            left: 40vw;
+            border-radius: 10px;
+            margin-top: 10vh;
+        }
+
+        label{
+            position: absolute;
+            left: 20px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #name,#email{
+            margin-bottom: 20px;
+            margin-top: 7px;
+        }
+        #msg{
+            padding: 50px 50px;
+            box-sizing: border-box;
+            overflow: scroll;
+        }
+        input{
+            border-radius: 5px;
+            border: none;
+            padding-right: 100px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        ::placeholder{
+            position: absolute;
+            left: 3px;
+            top: 5px;
+        }
+        h1{
+            margin-bottom: 20px;
+            padding-top: 10px;
+        }
+        button{
+            background-color: #22bc7e;
+            padding: 10px 105px;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+            border-style: none;
+            font-size: 17px;
+            font-weight: 600;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="homepage.html"><img src="logo.png" alt="logo" title="home"></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <div class="box">
+            <h1>Contact Form</h1>
+            <form action="#">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Enter your name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter your email"><br>
+                <label for="msg">Message</label><br>
+                <input type="text" id="msg" placeholder="Enter your Message" height="50px">
+                <button>Submit</button>
+            </form>
+            
+        </div>
+    </main>
+</body>
+</html>
