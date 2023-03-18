@@ -1,0 +1,15 @@
+/* body{
+  background: linear-gradient(pink,red);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+} */
+html {
+  background: red; /* fallback color */
+  background: linear-gradient( to bottom, rgba(230, 197, 197, 0.834), rgb(225, 167, 213));
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
