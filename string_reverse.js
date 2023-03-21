@@ -1,6 +1,6 @@
 const str = `nikhil`;
 setTimeout(() =>{
-    let val = 0;
+    let val = ``;
     let x = str.length;
     for (let index = x-1; index >= 0; index--){
         val += str[index];
