@@ -1,9 +1,9 @@
-const str = `nikhil`;
+const str = `nik`;
 setTimeout(() =>{
-    let val = ``;
     let x = str.length;
+    var val = '';
     for (let index = x-1; index >= 0; index--){
-        val += str[index];
+        val = val+ str[index];
     }
     console.log(val);
 }, 2000);
