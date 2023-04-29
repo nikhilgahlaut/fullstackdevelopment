@@ -1,5 +1,5 @@
 class Salary{
-    constructor(name,position,salary){
+    constructor(name= "test",position = "test",salary = "000"){
         this.name = name;
         this.position = position;
         this.salary = salary;

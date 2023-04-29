@@ -1,8 +1,8 @@
 class myCar{
-    constructor(company,model,year){
-        this.company = company;
-        this.model = model;
-        this.year = year;
+    constructor(company1,model1,year1){
+        this.company = company1;
+        this.model = model1;
+        this.year = year1;
     }
 //creating a meathod
 getDescription(){

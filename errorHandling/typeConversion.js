@@ -2,17 +2,18 @@ function convertToNumber(checkNum){
     try{
         const num = Number(checkNum)
         if(isNaN(num)){
-            return `Invalid number`;
+            console.log(`Invalid number`);
         }
         else{
-            return num;
+            console.log(num);
         }
     }
     catch(error){
-        return error.message;
+        console.log(`handled the error`);
+        console.log(error.message);
     }
 
 };
 
-console.log(convertToNumber(`000`))
-console.log(convertToNumber(`abc`))
+convertToNumber(`000`)
+convertToNumber(`abc`)

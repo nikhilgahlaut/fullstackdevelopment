@@ -1,5 +1,5 @@
 class getPerson{
-    constructor(name = "unknown", age = "0"){
+    constructor(name = "default", age = "default"){
         this.name = name;
         this.age = age;
     }
