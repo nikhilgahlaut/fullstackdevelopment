@@ -21,6 +21,6 @@ class User{
 }
 
 
-const user = new User(`mithun`,`Password123`)
-user.password = `password123`
+const user = new User(`mithun`,`password123`)
+// user.password = `password123`
 console.log(user.password)
