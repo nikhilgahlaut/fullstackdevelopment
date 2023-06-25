@@ -1,23 +1,21 @@
-const s = "test"; // 'e' , 'e' , 'e' , 't'
-// let str = s.split("");
-// console.log(firstUnique(s));
-let str = s.split("");
-for(let i = 0 ; i< str.length; i++)
-{
-    let count = 0;
-    for(let j = i+1 ; j < str.length ; j++){
-        if(str[i] === str[j])
-        {
-            count++;
-        }
-        
+function firstUniqChar(s) {
+    const charMap = {};
+    
+    for (let i = 0; i < s.length; i++) {
+      charMap[s[i]] = charMap[s[i]] + 1 || 1;
     }
-if(count === 0){
-    console.log(s[i]);
-    break;
-}
-else
-{
-    console.log(-1)
-}
-}
+    
+    // Find the first non-repeating character
+    for (let i = 0; i < s.length; i++) {
+      if (charMap[s[i]] === 1) {
+        return i;
+      }
+    }
+    
+    return -1;
+  }
+
+  const str = "leetcode";
+  const index = firstUniqChar(str);
+  console.log(index);
+  
