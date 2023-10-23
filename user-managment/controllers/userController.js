@@ -58,6 +58,11 @@ exports.getUsers = async (req, res) => {
 exports.deleteUser = async(req,res) =>{
     try {
         const userID = req.params.id 
+        const userExists = await User.findOne({userID})
+        if(!userExists){
+            throw new Error('user doesnt exist')
+        }
+
         const user = await User.findByIdAndDelete(userID)
         res.status(200).json({
             success: true,
